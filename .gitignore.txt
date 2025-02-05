@@ -1,0 +1,7 @@
+# Unity'deki gereksiz dosyaları hariç tut
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Pp]ackages/
