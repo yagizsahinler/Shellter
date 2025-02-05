@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GOKCEN\\AYG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|c:\\users\\gokcen\\ayg\\assets\\scripts\\spawnplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\snail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\snail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\snailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\snailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\network\\connecttoserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\network\\connecttoserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\network\\createandjoinrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\network\\createandjoinrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\snailhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\snailhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpawnPlayers.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SpawnPlayers.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnPlayers.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SpawnPlayers.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnPlayers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T15:01:30.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateAndJoinRooms.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Network\\CreateAndJoinRooms.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Network\\CreateAndJoinRooms.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Network\\CreateAndJoinRooms.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Network\\CreateAndJoinRooms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T02:36:14.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConnectToServer.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Network\\ConnectToServer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Network\\ConnectToServer.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Network\\ConnectToServer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Network\\ConnectToServer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T01:28:36.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ButtonManager.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\ButtonManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonManager.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\ButtonManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T22:56:13.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SnailHealth.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SnailHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SnailHealth.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SnailHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SnailHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T20:56:03.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SnailManager.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SnailManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SnailManager.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SnailManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SnailManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:15:05.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Snail.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Snail.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Snail.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Snail.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Snail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:11:53.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ground.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Ground.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ground.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Ground.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ground.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAuwKwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T01:30:08.827Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
