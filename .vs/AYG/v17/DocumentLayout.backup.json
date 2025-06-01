@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\GOKCEN\\AYG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\playerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\snailhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\snailhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|c:\\users\\gokcen\\ayg\\assets\\scripts\\spawnplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|c:\\users\\gokcen\\ayg\\assets\\scripts\\snailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\snailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\spawnplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnplayers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,20 +23,24 @@
       "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\snail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\snailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\snailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\loadingtextanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadingtextanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\network\\connecttoserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\network\\connecttoserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\network\\createandjoinrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\network\\createandjoinrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\snailhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\snailhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\network\\connecttoserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\network\\connecttoserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|C:\\Users\\GOKCEN\\AYG\\assets\\scripts\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDCCE6D-2CEC-FF8C-C27E-05FC91A03510}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,106 +50,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "PlayerUI.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\PlayerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerUI.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\PlayerUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T16:59:14.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoadingTextAnimator.cs",
+              "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\LoadingTextAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingTextAnimator.cs",
+              "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\LoadingTextAnimator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadingTextAnimator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:48:48.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SpawnPlayers.cs",
               "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SpawnPlayers.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnPlayers.cs",
               "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SpawnPlayers.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnPlayers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T15:01:30.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CreateAndJoinRooms.cs",
               "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Network\\CreateAndJoinRooms.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Network\\CreateAndJoinRooms.cs",
               "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Network\\CreateAndJoinRooms.cs",
               "RelativeToolTip": "Assets\\Scripts\\Network\\CreateAndJoinRooms.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T02:36:14.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ConnectToServer.cs",
               "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Network\\ConnectToServer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Network\\ConnectToServer.cs",
               "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Network\\ConnectToServer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Network\\ConnectToServer.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T01:28:36.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ButtonManager.cs",
               "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\ButtonManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonManager.cs",
               "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\ButtonManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ButtonManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T22:56:13.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T22:56:13.75Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "SnailHealth.cs",
               "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SnailHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SnailHealth.cs",
               "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SnailHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\SnailHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T20:56:03.916Z"
+              "WhenOpened": "2024-12-17T20:56:03.916Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SnailManager.cs",
               "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SnailManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SnailManager.cs",
               "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\SnailManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SnailManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAuwIUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:15:05.92Z"
+              "WhenOpened": "2024-12-15T11:15:05.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Snail.cs",
               "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Snail.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Snail.cs",
               "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Snail.cs",
               "RelativeToolTip": "Assets\\Scripts\\Snail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAkwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T11:11:53.665Z"
+              "WhenOpened": "2024-12-15T11:11:53.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Ground.cs",
               "DocumentMoniker": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Ground.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ground.cs",
               "ToolTip": "C:\\Users\\GOKCEN\\AYG\\Assets\\Scripts\\Ground.cs",
               "RelativeToolTip": "Assets\\Scripts\\Ground.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAuwKwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T01:30:08.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T01:30:08.827Z"
             }
           ]
         }

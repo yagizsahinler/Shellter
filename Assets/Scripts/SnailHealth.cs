@@ -9,14 +9,23 @@ public class SnailHealth : MonoBehaviour
     [SerializeField]
     private Text healthTxt;
 
+    private PlayerUI playerUI; // Oyuncunun UI'sine eriþmek için
+
     void Start()
     {
         health = maxHealth;
+        playerUI = GetComponent<PlayerUI>(); // Oyuncunun UI bileþenine eriþ
 
         if (healthTxt != null)
             healthTxt.text = health.ToString();
         else
             Debug.LogWarning("Health UI metni eksik!");
+
+        // **Baþlangýçta can barýný güncelle**
+        if (playerUI != null)
+        {
+            playerUI.UpdateHealth(health, maxHealth);
+        }
     }
 
     public void ChangeHealth(int change)
@@ -33,6 +42,12 @@ public class SnailHealth : MonoBehaviour
 
         if (healthTxt != null)
             healthTxt.text = health.ToString();
+
+        // **Can barýný UI'da güncelle**
+        if (playerUI != null)
+        {
+            playerUI.UpdateHealth(health, maxHealth);
+        }
     }
 
     private void Die()

@@ -3838,6 +3838,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Object_FindObjectsByType();
 		Register_UnityEngine_Object_FindObjectsByType();
 
+		//UnityEngine.Object[] UnityEngine.Object::FindObjectsOfType(System.Type,System.Boolean)
+		void Register_UnityEngine_Object_FindObjectsOfType();
+		Register_UnityEngine_Object_FindObjectsOfType();
+
 	//End Registrations for type : UnityEngine.Object
 
 	//Start Registrations for type : UnityEngine.ObjectDispatcher
@@ -6109,10 +6113,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.IntPtr UnityEngine.SpriteRenderer::get_sprite_Injected(System.IntPtr)
 		void Register_UnityEngine_SpriteRenderer_get_sprite_Injected();
 		Register_UnityEngine_SpriteRenderer_get_sprite_Injected();
-
-		//System.Void UnityEngine.SpriteRenderer::set_flipX_Injected(System.IntPtr,System.Boolean)
-		void Register_UnityEngine_SpriteRenderer_set_flipX_Injected();
-		Register_UnityEngine_SpriteRenderer_set_flipX_Injected();
 
 		//System.Void UnityEngine.SpriteRenderer::set_hasSpriteChangeEvents_Injected(System.IntPtr,System.Boolean)
 		void Register_UnityEngine_SpriteRenderer_set_hasSpriteChangeEvents_Injected();

@@ -4,6 +4,8 @@
 		<type fullname="ConnectToServer" preserve="nothing"/>
 		<type fullname="CreateAndJoinRooms" preserve="nothing"/>
 		<type fullname="Ground" preserve="nothing"/>
+		<type fullname="LoadingTextAnimator" preserve="nothing"/>
+		<type fullname="PlayerUI" preserve="nothing"/>
 		<type fullname="Snail" preserve="nothing"/>
 		<type fullname="SnailHealth" preserve="nothing"/>
 		<type fullname="SnailManager" preserve="nothing"/>

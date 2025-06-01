@@ -14,8 +14,8 @@ public class SnailManager : MonoBehaviour
 
     private int currentSnail;
 
-    private Vector2 minBounds = new Vector2(-1.75f, -0.97f); // Sol-alt köþe
-    private Vector2 maxBounds = new Vector2(1.75f, 0.98f);  // Sað-üst köþe
+    private Vector2 minBounds = new Vector2(-0.1f, -0.02f); // Sol-alt köþe
+    private Vector2 maxBounds = new Vector2(0.1f, 0.03f);  // Sað-üst köþe
 
     private void Awake()
     {
@@ -41,18 +41,19 @@ public class SnailManager : MonoBehaviour
         {
             Vector3 targetPosition = snails[currentSnail].transform.position;
 
-            // Kamera pozisyonunu sýnýrlandýr
+            // Kamera pozisyonunu sýnýrlayalým (isteðe baðlý)
             targetPosition.x = Mathf.Clamp(targetPosition.x, minBounds.x, maxBounds.x);
             targetPosition.y = Mathf.Clamp(targetPosition.y, minBounds.y, maxBounds.y);
             targetPosition.z = -10f; // Kamera Z ekseni sabit kalýr
 
-            // Kamerayý pürüzsüz bir þekilde hareket ettir
+            // Kamera pozisyonunu pürüzsüz bir þekilde hareket ettir
             if (snailCamera != null)
             {
                 snailCamera.position = Vector3.Lerp(snailCamera.position, targetPosition, Time.deltaTime * 5f);
             }
         }
     }
+
 
 
     private IEnumerator InitializeSnails()
@@ -97,33 +98,23 @@ public class SnailManager : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
 
-        int initialSnail = currentSnail;
-        int attempts = 0;
+        int previousSnail = currentSnail;
+        currentSnail = (currentSnail + 1) % snails.Length;
 
-        do
+        // Önceki oyuncunun çerçevesini eski haline getir
+        if (snails[previousSnail] != null)
         {
-            currentSnail = (currentSnail + 1) % snails.Length;
-            attempts++;
-            if (attempts > snails.Length)
-            {
-                Debug.LogError("NextSnail döngüsü sona ermedi! Karakterler kontrol edilmeli.");
-                break;
-            }
-        } while (snails[currentSnail] == null || !snails[currentSnail].gameObject.activeSelf);
+            snails[previousSnail].GetComponent<Snail>()?.SetTurnIndicator(false);
+        }
 
-        if (snails[currentSnail] != null && snails[currentSnail].gameObject.activeSelf)
+        // Yeni oyuncunun çerçevesini parlak yap
+        if (snails[currentSnail] != null)
         {
-            Vector3 targetPosition = snails[currentSnail].transform.position;
-
-            // Kamera pozisyonunu sýnýrlandýr
-            targetPosition.x = Mathf.Clamp(targetPosition.x, minBounds.x, maxBounds.x);
-            targetPosition.y = Mathf.Clamp(targetPosition.y, minBounds.y, maxBounds.y);
-            targetPosition.z = -10f; // Kameranýn z ekseni sabit kalýr
-
-            snailCamera.SetParent(null); // Kamerayý karakterden ayýr
-            snailCamera.position = targetPosition; // Kamera pozisyonunu ayarla
+            snails[currentSnail].GetComponent<Snail>()?.SetTurnIndicator(true);
         }
     }
+
+
     public void RemoveSnail(GameObject snail)
     {
         List<Snail> tempSnailList = new List<Snail>(snails);
@@ -140,7 +131,7 @@ public class SnailManager : MonoBehaviour
         if (snails.Length == 0)
         {
             SetDefaultCameraPosition();
-            SceneManager.LoadScene("Game Over");
+            SceneManager.LoadScene("GameOver");
             return;
         }
 

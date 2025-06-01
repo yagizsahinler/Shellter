@@ -1,3 +1,4 @@
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,8 +8,15 @@ public class ButtonManager : MonoBehaviour
     {
         SceneManager.LoadScene("Loading");
     }
-    public void MainMenu()
+    public void GoToMainMenu()
     {
-        SceneManager.LoadScene("MainScene"); // Ana menüye dön
+        // Photon baðlantýsýný kopar
+        if (PhotonNetwork.IsConnected)
+        {
+            PhotonNetwork.Disconnect();
+        }
+
+        // Ana menü sahnesine dön
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainScene");
     }
 }

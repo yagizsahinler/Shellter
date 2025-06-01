@@ -3,7 +3,7 @@ using Photon.Pun;
 
 public class SpawnPlayers : MonoBehaviour
 {
-    public GameObject playerPrefab; // Oyuncu prefab'i
+    public GameObject playerPrefab; // Oyuncu prefab'ý
     public Transform[] spawnPoints; // Sabit spawn noktalarý
 
     private void Start()
@@ -24,6 +24,8 @@ public class SpawnPlayers : MonoBehaviour
         {
             Debug.LogError("HATA: Spawlanan prefab 'Snail' bileþeni içermiyor!");
         }
-    }
 
+        // **Animator'un doðru çalýþtýðýný garanti etmek için**
+        spawnedPlayer.GetComponent<Animator>().enabled = true;
+    }
 }

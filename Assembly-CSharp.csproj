@@ -73,6 +73,8 @@
     <Compile Include="Assets\Scripts\SnailHealth.cs" />
     <Compile Include="Assets\Scripts\SpawnPlayers.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+    <Compile Include="Assets\Scripts\PlayerUI.cs" />
+    <Compile Include="Assets\Scripts\LoadingTextAnimator.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\Network\CreateAndJoinRooms.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />

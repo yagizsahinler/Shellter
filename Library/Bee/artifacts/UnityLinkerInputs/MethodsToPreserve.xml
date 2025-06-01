@@ -1,13 +1,13 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="ButtonManager">
+			<method name="GoToMainMenu"/>
 			<method name="LoadScene1"/>
-			<method name="MainMenu"/>
-			<method name="MainMenu"/>
 		</type>
 		<type fullname="CreateAndJoinRooms">
 			<method name="CreateRoom"/>
 			<method name="JoinRoom"/>
+			<method name="SetUsername"/>
 		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">

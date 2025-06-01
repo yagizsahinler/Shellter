@@ -1,7 +1,63 @@
-# Unity'deki gereksiz dosyaları hariç tut
-[Ll]ibrary/
-[Tt]emp/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Pp]ackages/
+# Unity tarafından oluşturulan dosyalar
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Unity tarafından oluşturulan meta dosyaları yoksayma
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity paket yöneticisi
+/[Aa]ssets/[Pp]ackages/
+
+# Derleme dosyaları
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics ve diğer analiz araçları
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+/[Gg]oogle[Pp]lay/[Bb]uilds/
+
+# macOS dosyaları
+.DS_Store
+
+# Windows dosyaları
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code ve diğer IDE dosyaları
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# JetBrains Rider
+.idea/
+*.iml
+
+# Diğer geçici dosyalar
+*.bak
+*.tmp
+*.backup
+
+# Unity meta dosyalarını koru
+!*.meta

@@ -1,51 +1,38 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
 public class Snail : MonoBehaviour
 {
-    [SerializeField]
-    private Rigidbody2D bulletPrefab;
+    [SerializeField] private Rigidbody2D bulletPrefab;
+    [SerializeField] private Transform currentGun;
 
-    [SerializeField]
-    private Transform currentGun;
-
-    public float walkSpeed = 1f;
-    public float maxRealtiveVelocity = 6f;
-    public float misileForce = 5f;
-
-    public int snailID;
-
-    private SpriteRenderer spriteRenderer;
-
-    private Camera mainCam;
-
-    private Vector3 diff;
-
-    public bool IsTurn { get { return SnailManager.instance.IsMyTurn(snailID); } }
+    private PlayerUI playerUI;
     private SnailHealth snailHealth;
-
+    private PhotonView view;
+    private Camera mainCam;
+    private Vector3 diff;
     private Animator animator;
 
-    PhotonView view;
+    public int snailID;
+    public float walkSpeed = 1f;
+    public float missileForce = 5f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-
-        //can scripti
+        playerUI = GetComponent<PlayerUI>();
         snailHealth = GetComponent<SnailHealth>();
-
-        mainCam = Camera.main;
-
-        animator = GetComponent<Animator>();
-
         view = GetComponent<PhotonView>();
+        mainCam = Camera.main;
+        animator = GetComponent<Animator>(); // Animator referansÄ± alÄ±nÄ±yor
+
+        if (playerUI != null)
+        {
+            playerUI.UpdateHealth(snailHealth.health, snailHealth.maxHealth);
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!IsTurn) return;
@@ -53,30 +40,28 @@ public class Snail : MonoBehaviour
         if (view.IsMine)
         {
             RotateGun();
-
             MovementAndShooting();
         }
 
         if (transform.position.y < -6)
         {
-            Die(); // Y Ekseni sýnýrýný aþýnca ölümü tetikler
+            Die();
         }
-
     }
+
+    public bool IsTurn => SnailManager.instance.IsMyTurn(snailID);
 
     private void Die()
     {
-        snailHealth.ChangeHealth(-snailHealth.maxHealth); // Caný sýfýra indirir
-        SnailManager.instance.RemoveSnail(gameObject); // Yöneticiye bildir
+        snailHealth.ChangeHealth(-snailHealth.maxHealth);
+        SnailManager.instance.RemoveSnail(gameObject);
     }
 
     void RotateGun()
     {
         diff = mainCam.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         diff.Normalize();
-
         float rot_Z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-
         currentGun.rotation = Quaternion.Euler(0, 0, rot_Z + 180f);
     }
 
@@ -86,25 +71,18 @@ public class Snail : MonoBehaviour
 
         if (hor != 0)
         {
-            // Yürüme animasyonunu baþlat
-            animator.SetBool("isWalking", true);
             transform.position += Vector3.right * hor * Time.deltaTime * walkSpeed;
-            spriteRenderer.flipX = hor < 0;
+            view.RPC("SetWalkingAnimation", RpcTarget.All, true); // TÃ¼m istemcilerde yÃ¼rÃ¼me animasyonunu baÅŸlat
         }
         else
         {
-            // Karakter hareketsizse yürüme animasyonunu durdur
-            animator.SetBool("isWalking", false);
+            view.RPC("SetWalkingAnimation", RpcTarget.All, false); // Durma animasyonunu baÅŸlat
         }
 
-        // Ateþ Etme Kontrolü
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q)) // AteÅŸ Etme
         {
             Rigidbody2D bullet = Instantiate(bulletPrefab, currentGun.position - currentGun.right, currentGun.rotation);
-            bullet.AddForce(-currentGun.right * misileForce, ForceMode2D.Impulse);
-
-            animator.SetBool("isShooting", true);
-            Invoke("StopShooting", 0.5f);
+            bullet.AddForce(-currentGun.right * missileForce, ForceMode2D.Impulse);
 
             if (IsTurn)
             {
@@ -113,21 +91,37 @@ public class Snail : MonoBehaviour
         }
     }
 
-    void StopShooting()
-    {
-        animator.SetBool("isShooting", false);
-    }
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Bullet"))
         {
             snailHealth.ChangeHealth(-10);
 
+            if (playerUI != null)
+            {
+                playerUI.UpdateHealth(snailHealth.health, snailHealth.maxHealth);
+            }
+
             if (IsTurn)
+            {
                 SnailManager.instance.NextSnail();
+            }
         }
     }
 
+    // ðŸŸ¢ **RPC ile TÃ¼m Oyunculara Animasyon Senkronizasyonu**
+    [PunRPC]
+    void SetWalkingAnimation(bool isWalking)
+    {
+        animator.SetBool("isWalking", isWalking);
+    }
+
+    // ðŸ”„ **SÄ±rasÄ± Gelen Oyuncunun Ã‡erÃ§evesini Parlatma**
+    public void SetTurnIndicator(bool isActive)
+    {
+        if (playerUI != null)
+        {
+            playerUI.HighlightTurn(isActive);
+        }
+    }
 }

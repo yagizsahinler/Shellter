@@ -200,6 +200,7 @@ GameObject:
   - component: {fileID: 8297326622667278546}
   - component: {fileID: 6191880808354463022}
   - component: {fileID: 4739518278709607586}
+  - component: {fileID: 1898582193583341377}
   m_Layer: 0
   m_Name: Snail 1
   m_TagString: Untagged
@@ -379,10 +380,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 7003210376027843236, guid: 548b79d1146b92142b765263ce408496, type: 3}
   currentGun: {fileID: 6236475413688108099}
-  walkSpeed: 1
-  maxRealtiveVelocity: 6
-  misileForce: 5
   snailID: 0
+  walkSpeed: 1
+  missileForce: 5
 --- !u!114 &7716858833903300435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -479,6 +479,21 @@ MonoBehaviour:
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
+--- !u!114 &1898582193583341377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6765112753886756891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da09b4a950a360b4b818f03bfc72a741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNameText: {fileID: 0}
+  healthSlider: {fileID: 0}
+  playerFrame: {fileID: 0}
 --- !u!1 &7246697934798577895
 GameObject:
   m_ObjectHideFlags: 0
